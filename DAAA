@@ -1,0 +1,31 @@
+Software Development Proposal
+1. Overview
+This proposal outlines the development of a private, intranet-based dashboard for Daikibo. The dashboard will display the health status of the 9 machines located in each of Daikibo’s 4 factories using real-time telemetry data. The solution will integrate with the client’s existing authentication server, ensuring seamless access for authorized personnel. This project aims to provide a reliable and secure overview of machine health to facilitate quick decision-making and maintenance prioritization.
+2. Scope
+The proposed dashboard will include the following functionality:
+
+- Single-page dashboard: Lists the current status of all monitored devices, with intuitive color-coding and real-time updates.
+- Expandable/collapsible view: Users can expand/collapse by factory and device levels to view a historical status log.
+- Authentication integration: Syncs with the client’s internal authentication server to allow users to leverage their existing company-wide credentials for secure access.
+- Responsive design: Ensures usability across different devices within the intranet environment.
+- Error handling: Incorporates mechanisms to handle telemetry errors and display fallback messages where necessary.
+
+Note: Please refer to the wireframe image on the next page for a visual overview.
+3. Estimate
+The estimated effort required to complete the project is 140 man-hours, distributed as follows:
+
+- Development: 80 hours (front-end and back-end coding, UI/UX integration)
+- Testing: 40 hours (unit tests, integration tests, user acceptance)
+- Integration: 20 hours (authentication server integration, deployment in the client’s intranet)
+4. Timeline
+- Design Phase: 1st of September 2024 — 5th of September 2024
+- Development Phase: 6th of September 2024 — 20th of September 2024
+- Testing Phase: 21st of September 2024 — 27th of September 2024
+- Integration & Deployment: 28th of September 2024 — 30th of September 2024
+5. Support
+We are committed to providing continuous support for the dashboard. This includes:
+
+- Ongoing bug fixes and patches
+- Support ticket system for reporting issues
+- Development of new functionality as required
+- Regular maintenance to ensure compatibility with updates to the client’s authentication server or telemetry systems.
